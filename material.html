@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<!--忽略页面中的数字识别为电话，忽略email识别-->
 		<meta name="format-detection" content="telphone=no, email=no" />
-		<title>实验室产品</title>
+		<title>科研数据集</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<!--[if lt IE 9]>
@@ -90,43 +90,30 @@
 						<ul>
 						<span title="关闭栏目列表" class="colse"></span>
 							<li class="sidebar-title">
-								<h3>实验室产品</h3>
+								<h3>科研数据集</h3>
 								<p>Laboratory Products</p>
 							</li>
 							<li class="sidebar-item">
-								<a href="news-con.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;耳蜗CT</a>
+								<a href="data.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;散射矫正数据集</a>
 							</li>
 							<li class="sidebar-item">
-								<a href="littleanimalCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;小动物CT</a>
+								<a href="material.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;材料分解数据集</a>
 							</li>
 <li class="sidebar-item">
-								<a href="armCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;手臂CT</a>
-							</li>
-<li class="sidebar-item">
-								<a href="headCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;头部CT</a>
-							</li>
-<li class="sidebar-item">
-								<a href="industryCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;工业CT</a>
-							</li>
-<li class="sidebar-item">
-								<a href="OCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;O型臂CT</a>
-							</li>
+								
 						</ul>
 					</div>
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 right-content">
 						<!--手机端页面导航-->
 						<div class="mobile-nav hidden-md hidden-sm hidden-lg">
 							<div class="mobile-nav-title">
-								<h3>实验室产品</h3>
+								<h3>科研数据集</h3>
 								<p>Laboratory Products</p>
 							</div>
 							<div class="mobile-nav-item clearfix">
-								<a href="news-con.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;耳蜗CT</a>
-								<a href="littleanimalCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;小动物CT</a>
-								<a href="armCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;手臂CT</a>
-								<a href="headCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;头部CT</a>
-<a href="industryCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;工业CT</a>
-<a href="OCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;O型臂CT</a>
+								<a href="news-con.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;散射矫正数据集</a>
+								<a href="littleanimalCT.html"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;材料分解数据集</a>
+								
 							</div>
 						</div>
 						<!--面包屑导航-->
@@ -136,36 +123,25 @@
 								<a href="index.html">首页</a>
 							</li>
 							<li>
-								<a href="index.html">实验室产品</a>
+								<a href="index.html">科研数据集</a>
 							</li>
-							<li class="active">小动物CT</li>
+							<li class="active">材料分解数据集</li>
 						</ol>
 					
 						<div class="news-detail">
 							<div class="news-detail-title">
-								<p  style="font-weight: bold;font-size:50px;" ">自屏蔽桌面式小动物CT</p>
+								<p  style="font-weight: bold;font-size:50px;" ">材料分解数据集</p>
 								
 							</div>
 							<div class="news-detail-content">
-								<p  style="font-weight: bold;font-size:25px;" ">小动物CT能够自动屏蔽电离辐射，且配有可视化操作面板，让面向小型动物和组织的检测实验轻量化便捷化。</p>
-<p  style="font-weight: bold;font-size:25px;" ">特点：该设备可对小动物、人体病理组织成像，进行预临床研究和病理分析。</p>
+								<p  style="font-weight: bold;font-size:25px;" ">我们在当地医院放射科医生的协助下建立了该数据集。利用Syngo.Via的去骨功能，可以从DECT图像中获得骨和组织材料的初始分解结果。在这个过程中，大多数骨信息可以自动去除。然而，组织图像中仍然保留了一些骨骼信息。放射科医生将手动选择这些像素并将其从组织图像中移除。此外，放射科医师还会根据临床经验，对分解后的骨组织图像进行边缘检查，并对基础材料的相邻模糊区域进行人工校正。以上步骤是在Syngo.Via的帮助下完成的。然后，在DECT离散投影模型的基础上，利用分解后的骨骼和组织图像生成双能量投影。我们应用Sidden的光线追踪算法来模拟扇形光束的几何形状。源到目标和源到探测器的距离分别设置为1000和1500毫米，以模拟安装在Varian Trilogy治疗机(www.varian.com)上的临床机载成像仪的几何形状。双能量投影在360°旋转的720个视图中均匀采样。每个视图中的投影样本使用线性检测器收集，该检测器由1024个bin组成，每个像素为0.388 mm。然后，利用滤波后的反向投影(FBP)方法对DECT图像进行重构。</p>
+<p  style="font-weight: bold;font-size:25px;" ">如您需要该数据集请联系我们。</p>
 								 
-								<img src="img/自屏蔽小动物CT.png" alt="Image Description" width="1200" height="600";/></p><br>
-								<div class="news-detail-title"><h2>产品参数</h2></div>
-								<img src="img/30.png" alt=""；/></p></p></p>
-								<div class="news-detail">
-							<div class="news-detail-title">
-								<h2>案例1：小鼠CT扫描</h2>
-								<img src="img/小动物托盘和CT舱门.png" alt="Image Description" width="1200" height="600";/></p>
-								<img src="img/小鼠CT扫描.png" alt="Image Description" width="1200" height="600";/></p>
-								<img src="img/造影剂小鼠CT结果.png" alt="Image Description" width="1200" height="600";/></p></p></p></p></p>
-								<h2>案例2：小型病理组织分析：食道黏膜癌变与乳腺肿块</h2>
-								<img src="img/食道黏膜癌变组织.png" alt="Image Description" width="1200" height="600";/></p>
+								<img src="img/材料分解.png" alt="" style="margin-bottom: 10px;"/></p>
 								
-								<img src="img/食道黏膜癌变CT结果 .png" alt="Image Description" width="1200" height="600";/></p></p></p>
-								<img src="img/石蜡包埋乳腺肿.png"alt="Image Description" width="1200" height="600";/></p>
+</p></p></p></p></p></p></p></p></p></p>
+				</p></p></p></p></p></p></p></p></p></p>
 								
-								<img src="img/乳腺肿块切片CT结果.png" alt="Image Description" width="1200" height="600";/></p></p></p>
 							</div>
 								
 						</div>	
